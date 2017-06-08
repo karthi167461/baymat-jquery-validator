@@ -1,0 +1,26 @@
+{
+  "name": "baymat-jquery-validator",
+  "description": "very simple html validator",
+  "version": "1.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/karthi167461/baymat-jquery-validator"
+  },
+  "main": "baymat.js",
+  "keywords": [
+    "validator",
+    "baymat",
+    "simple validator",
+    "html validator",
+    "jquery validator"
+  ],
+  "directories": {
+    "lib": ".",
+    "example": "example"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "vaenkatachalapathy j",
+    "email": "venkatsmart15@gmail.com"
+  }
+}

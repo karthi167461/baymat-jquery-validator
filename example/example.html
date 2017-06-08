@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="../baymat.js"></script>
+<body>
+
+<form action="#" id="baymat">
+  First name:<br>
+  <input type="text" name="firstname" id="firstname" baymat-name="firstname" value="">
+  <br>
+  Last name:<br>
+  <input type="text" name="lastname" id="lastname" baymat-name="lastname" value="">
+  <br><br>
+  <input type="submit" value="Submit">
+</form> 
+
+
+</body>
+<script>
+    var rules={
+        "firstname":{
+            required:"required",
+            min_length:5,
+            max_length:12,
+            alpha:"alpha"
+        },
+        "lastname":{
+            required:"required",
+        }
+    };
+     $('#baymat').baymat(rules);
+    </script>
+</html>
