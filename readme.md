@@ -27,7 +27,7 @@ Easy to connect any form into this Baymat JS
      $('#baymat').baymat(rules);
     </script>
 ```
-#Rules
+# Rules
 
 
 ```
